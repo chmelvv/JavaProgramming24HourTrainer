@@ -7,3 +7,6 @@
 *.class
 
 .metadata
+
+.recommenders/
+.gitignore
