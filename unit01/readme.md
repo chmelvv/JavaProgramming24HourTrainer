@@ -1,4 +1,4 @@
-#Walkthrough	1	
+#[DONE]Walkthrough	1	
 1. Download	Java	SE	7	(Currently	JDK	7	u40	–	update	40)	from	
 hSp://www.oracle.com/technetwork/java/javase/downloads 
  
@@ -10,7 +10,7 @@ hSp://jdk7.java.net/download.html	,	run	it	and	follow	the	instrucTons.
 MAC	OS)- the	reported	version	should	be	1.7….	If	not,	you	may	need	to	modify	
 the	system	variable	PATH	to	include	the	bin	directory	of	JDK.	
 
-#Walkthrough	2	
+#[DONE]Walkthrough	2	
 * Create	a	directory	called	Prac-calJava	and	a	
 subdirectory	Lesson1.	
 * Open	a	plain	text	editor,	e.g.	Notepad, enter	the	text	
@@ -21,7 +21,7 @@ Lesson1	using	the cd	command.
 * Compile	(javac)	and	run	(java)	HelloWorld	program	–	it	
 has	to	print	HelloWorld	on	the	screen. 	
 
-#Walkthrough	3	
+#[DONE]Walkthrough	3	
 * Download	and	install	the	latest Eclipse	for	Java	EE (32	Bit	version)	
 from	hSp://www.eclipse.org/downloads. 
 To	install	Eclipse	simply	unzip	the	content	of	the	archive	file	you	
@@ -35,7 +35,7 @@ LisTng	1-1	of	the	textbook.
 * Run	the	program	–	right-click	on	HelloWorld	and	select	the	Run	As	
 menu	item.	
 
-#Homework	
+#[DONE]Homework	
 1.	Write	a	program	that	will	print	your	name	and	address	in	the	Console	view	of	
 Eclipse,	for	example:	
 	Alex	Johnson	
