@@ -1,0 +1,9 @@
+# Eclipse project files
+.classpath
+.project
+.settings
+
+# Java class files
+*.class
+
+.metadata
