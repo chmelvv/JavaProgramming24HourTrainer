@@ -10,3 +10,4 @@
 
 .recommenders/
 .gitignore
+/bin/
