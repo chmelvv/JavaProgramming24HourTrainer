@@ -17,9 +17,10 @@
 * Change the code of the TestTax to instanEate NJTax instead of Tax. 
 * Run the TestTax program again and observe that now the new percentage is properly applied. You are using the overriden version of the method calcTax().
 
-#Homework 1
+#[DONE]Homework 1
 1. Study the lessons 3 and 4 from the textbook and do the assignment from the Try It secEons of these lessons. 
-2. From now on use the following Java SE 7 documentaEon: hLp://download.oracle.com/javase/7/docs/ 
-##Addi8onal Reading 
-* Overriding vs. hiding: hLp://www.coderanch.com/how-to/java/OverridingVsHiding 
-* Eclipse Debugging tutorial by Lars Vogel: hLp://www.vogella.com/arEcles/EclipseDebugging/arEcle.html
+2. From now on use the following Java SE 7 documentaEon: http://download.oracle.com/javase/7/docs/ 
+
+##Additional Reading 
+* Overriding vs. hiding: http://www.coderanch.com/how-to/java/OverridingVsHiding 
+* Eclipse Debugging tutorial by Lars Vogel: http://www.vogella.com/arEcles/EclipseDebugging/arEcle.html
