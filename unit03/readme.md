@@ -21,4 +21,15 @@ print	hello	with	the	name	that	was	passed	in	the	command	line.	For	example,
 if	you’ll	start	this	program	as		
 java	HelloWorld	Mary	
 it’ll	print	“Hello	Mary”		
-7.	Complete	the	assignments	from	the	Try	it	secEon	from	Lesson	5.			
+7.	Complete	the	assignments	from	the	Try	it	secEon	from	Lesson	5.		
+
+AddiEonal	Reading	
+*  The	Java	Virtual	Machine	by	Bill	Venners
+http://www.arEma.com/insidejvm/ed2/jvm.html
+*  Eclipse	Shortcuts	
+http://www.vogella.com/arEcles/EclipseShortcuts/arEcle.html			
+*  Constructors	of	the	superclass:	
+http://www.dzone.com/links/r/
+a_frequently_asked_quesEon_about_java_constructor.html		
+*  Data	Access	Levels:	http://bit.ly/9nAHFh		
+*  For	loops:	http://bit.ly/dbrBVr			
