@@ -1,7 +1,7 @@
-package unit03.loops;
-
+package loops;
 public class WhileLoopDemo {
-public static void main(String[] args) {
+
+	public static void main(String[] args) {
 	String [] friends = new String [20];
 		friends[0] = "Masha";
 		friends[1] = "Matilda";
