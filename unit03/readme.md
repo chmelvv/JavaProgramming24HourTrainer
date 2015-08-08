@@ -1,10 +1,10 @@
-#[done]Walkthrough
+# -[x] Walkthrough
 1. Create a new project called Loops. Then compile and test the WhileLoopDemo below. 
 2. Notice the == operator that’s used to compare the values of SEng variables.
 Note the program prints only those elements that are not null. The operator continue changes the execuEon flow and goes back to check the while expression. 
 3. Change the code to exit the loop as soon as the program finds and prints the name Matilda. Use the break keyword for this.
 
-#Homework 
+# -[ ] Homework 
 1. Study the lessons 5 and 6 from the textbook and do the assignment from the Try It secEons of these lessons. 
   1. p.117. Introduce command-line arguments into the program from Listing 4-6. 
   2. p.134. create a simple program that will increase pay, which is implemented differently for employees and contractors. After completing this assignment
