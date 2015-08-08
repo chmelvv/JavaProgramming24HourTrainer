@@ -5,9 +5,9 @@ Note the program prints only those elements that are not null. The operator cont
 3. Change the code to exit the loop as soon as the program finds and prints the name Matilda. Use the break keyword for this.
 
 #Homework 
-1. +Study the lessons 5 and 6 from the textbook and do the assignment from the Try It secEons of these lessons. 
-	1.2. +p.117. Introduce command-line arguments into the program from Listing 4-6. 
-	1.3. p.134. create a simple program that will increase pay, which is implemented differently for employees and contractors. After completing this assignment
+1. Study the lessons 5 and 6 from the textbook and do the assignment from the Try It secEons of these lessons. 
+  1. p.117. Introduce command-line arguments into the program from Listing 4-6. 
+  2. -[] p.134. create a simple program that will increase pay, which is implemented differently for employees and contractors. After completing this assignment
 you’ll have working but not perfect code. 
 2. Find put the difference between ++i and i++
 3. Read about immutable nature of String objects in Java. Learn the difference between creaEon of strings with “” vs. new operator. Will both if-statement below evaluate to true? Use Eclipse debugger to find out.
