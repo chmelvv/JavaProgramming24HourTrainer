@@ -18,6 +18,7 @@ public class WhileLoopDemo {
 		   continue;
 	   }
 	   System.out.println("I love " +  friends[i]);
+	   if ("Matilda".equals(friends[i])) break;
 	   i++;
    }
  
