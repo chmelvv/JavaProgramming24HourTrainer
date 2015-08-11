@@ -10,7 +10,7 @@ Note the program prints only those elements that are not null. The operator cont
   - [x] p.117. Introduce command-line arguments into the program from Listing 4-6. 
   - [x] p.134. create a simple program that will increase pay, which is implemented differently for employees and contractors. After completing this assignment
 you’ll have working but not perfect code. 
-- [ ] Find put the difference between ++i and i++
+- [x] Find put the difference between ++i and i++
 - [ ] Read about immutable nature of String objects in Java. Learn the difference between creaEon of strings with “” vs. new operator. Will both if-statement below evaluate to true? Use Eclipse debugger to find out.
 ``` 
 String gfriend=“Masha”;
