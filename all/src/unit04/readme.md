@@ -1,5 +1,5 @@
 #Homework	
 - [x] Study	the	materials	from	Lesson	7	from	the	textbook and	do	the	assignment	from	its	Try	It	section.
-	- [ ] In the first part of the assignment your goal is to break the code from Listing 7-5 to produce the run-time error ClassCastException. You create a situation when the array workers will be of type Person, which can store any Person or its descendants. Then, you purposely add its subclass that doesn’t implement Payable, but will try to cast it to Payable anyway to generate a run-time exception.
-	- [ ] In the second part of the assignment you need to rewrite the assignment from Chapter 6 to keep the Payable interface but remove the common ancestor Person.
+	- [x] In the first part of the assignment your goal is to break the code from Listing 7-5 to produce the run-time error ClassCastException. You create a situation when the array workers will be of type Person, which can store any Person or its descendants. Then, you purposely add its subclass that doesn’t implement Payable, but will try to cast it to Payable anyway to generate a run-time exception.
+	- [x] In the second part of the assignment you need to rewrite the assignment from Chapter 6 to keep the Payable interface but remove the common ancestor Person.
 - [ ] Invent	and	program	any	sample	applica1on	that	can	be	implemented	with	interfaces	illustra1ng polymorphism.	For	example,	think	of	the	classes	Cat	and  Dog,	Man	and	Woman,	or	a	store	inventory	that	has	to	be	discounted…	
