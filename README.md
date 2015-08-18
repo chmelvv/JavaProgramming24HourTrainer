@@ -10,7 +10,7 @@ My class and home tasks for Java course by Yakov Fain
 - [x] unit 03 Arrays, Loops, Packages, Access Levels, Interfaces, Casting
 - [x] unit 04  Abstract Classes, Interfaces,Polymorphism
 - [x] unit 05 Intro to GUI with Swing, Listeners
-- [ ] unit 06 Inner Classes. Intro to Applets. Installing Tomcat.
+- [x] unit 06 Inner Classes. Intro to Applets. Installing Tomcat.
 - [ ] unit 07 Error Handling
 - [ ] unit 08 Selected Collections. Generics.
 - [ ] unit 09 I.O Streams. Serialization. Basic Networking.
