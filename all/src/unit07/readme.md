@@ -20,7 +20,7 @@ Browse	the	help	info	on	various	methods	of	this	class	and	pay	a\en8on	to	their	t
 Create	a	cmd	app,	where	the	user	can	select	a	bicycle	model	and	the	quantity.		If	requested	quantity don’t	fit	in	your	truck,	throw the	TooManyBikesException	and	display	the	meaningful	 message	to	the	user.
 
 # Addi8onal	Reading	
-- [ ] http://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html	
-- [ ] Read	about	mul8-catch	excep8ons:	http://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html		
-- [ ] Read	about	using	Java	7	AutoCloseable	interface: http://www.javacodegeeks.com/2011/07/java-7-try-with-resources-explained.html		
-- [ ] Watch	the	presenta8on	about	the	Java	Garbage	Collector:	http://bit.ly/18TBK7K			
+- [x] http://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html	
+- [x] Read	about	mul8-catch	excep8ons:	http://docs.oracle.com/javase/7/docs/technotes/guides/language/catch-multiple.html		
+- [x] Read	about	using	Java	7	AutoCloseable	interface: http://www.javacodegeeks.com/2011/07/java-7-try-with-resources-explained.html		
+- [x] Watch	the	presenta8on	about	the	Java	Garbage	Collector:	http://bit.ly/18TBK7K			
