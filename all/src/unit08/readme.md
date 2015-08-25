@@ -30,3 +30,39 @@ The	current	customer	is	Lee
 The	current	customer	is	Starr	
 Excep5on	in	thread	"main"	java.lang.ClassCastExcep5on:	Order	cannot	be	cast	to	Customer	
 at	Test.main(Test.java:23)
+
+# Walkthrough	2	(start)	
+1.	Download	and	import	the	source	code	for	the	Lesson	15.	
+2.	Run	the	program	TestGenericCollec5on	–	it’ll	print	the	following:	
+								
+							Customer	David	Lee.	In	doSomething()	
+							Customer	Ringo	Starr.	In	doSomething()	
+3.	Un-comment	the	lines	16	and	17	to	add	an	Order instance	into		
+				the	collec5on	customers.	
+4.	Observe	the	compiler	error	-	can’t	add	
+					Order	to	the	collec5on	of	Customer	objects.	
+					
+5.	Remove	both	<Customer>	parameters	from	line	10.		
+				Compiler	will	stop	complaining.	
+6.	Run	the	program	to	see	the	run-)me	class	cast	excep5on.	
+				You’ve	added	the	wrong	object	to	the	collec5on,		but	compiler		
+				didn’t	catch	this	error.	
+Excep5on	in	thread	"main"	java.lang.ClassCastExcep5on:		
+																																																												Order	cannot	be	cast	to	Customer	
+Customer	David	Lee.	In	doSomething()	
+Customer	Ringo	Starr.	In	doSomething()	
+at	TestGenericCollec5on.processData(TestGenericCollec5on.java:28)	
+at	TestGenericCollec5on.main(TestGenericCollec5on.java:23)	
+
+# Homework	
+Do	the	assignments	from	the	Try	It	sec5ons	of	
+Lesson	14	and	15		
+
+# Addi5onal	Read	
+Linked	lists:	hIp://bit.ly/1gxCz5I		
+		
+Study	the	Oracle’s	Java	Generics	Tutorial	at	hIp://bit.ly/1if4njs		
+Watch	this	preso	from	the	JavaOne	conference	on	generics:	
+hIp://bit.ly/14k7ORf
+A	simple	example	of	using	parameterized	type	<T>	
+hIp://bit.ly/1mfsQsS	

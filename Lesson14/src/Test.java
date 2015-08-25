@@ -22,9 +22,10 @@ public class Test {
 		int totalElem = customers.size();
 		for (int i=0; i< totalElem;i++){
 			Customer currentCust =(Customer) customers.get(i);
+			System.out.println("The current customer is " + currentCust.lastName);
 		 }
 		
-		System.out.println("The current customer is " + currentCust.lastName);
+		
 
 	}
 
