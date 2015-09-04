@@ -16,16 +16,20 @@ Use the method unloadToDock() from class Ferry as an example.
 public class TestEmployee {
 	
 	public static void copyRetToEmp(List<? extends Employee> retiredEmployeeList, List<? super Employee> employeeList){		
-			for (Employee employee: retiredEmployeeList){
-				employeeList.add(employee);
-				System.out.println(employee.toString());
+			for (int i=0; i<10;i++){
+				// 1. Create new objects for employeeList
+				employeeList.add(new Employee(retiredEmployeeList.get(i).toString()));
+				// 2. Give link to the same objects
+				//employeeList.add(retiredEmployeeList.get(i));
+				retiredEmployeeList.get(i).setName("otherName");
+				System.out.println(employeeList.get(i)); //1.: nameN; 2.: otherName 
 			}
 	}
 
 	public static void main(String[] args) {
 		
 		// Initialization of collection of RetiredEmployee objects
-		List<RetiredEmployee> retiredEmployeeList = new ArrayList<RetiredEmployee>();
+		List<RetiredEmployee> retiredEmployeeList = new ArrayList<>();
 		for (int i=0; i<10; i++){
 			retiredEmployeeList.add(new RetiredEmployee("name" + i));
 		}

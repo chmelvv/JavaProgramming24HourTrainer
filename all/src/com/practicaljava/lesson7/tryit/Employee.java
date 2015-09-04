@@ -15,4 +15,9 @@ public class Employee implements Payable{
 		System.out.println("Increasing salary by " + percent + "%: " + name);
 		return true;
 	}
+
+	public void setName(String name) {
+		this.name=name;
+		
+	}
 }
