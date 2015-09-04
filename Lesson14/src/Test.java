@@ -5,9 +5,10 @@ public class Test {
 	/**
 	 * @param args
 	 */
-	@SuppressWarnings("unused")
+	@SuppressWarnings({ "unused", "unchecked" })
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("rawtypes")
 		ArrayList customers = new ArrayList();
 		Customer cust1 = new Customer("David","Lee");
 		customers.add(cust1);

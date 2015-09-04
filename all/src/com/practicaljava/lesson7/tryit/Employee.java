@@ -6,6 +6,10 @@ public class Employee implements Payable{
 	public Employee(String name){
 		this.name=name;
 	}
+	
+	public String toString(){
+		return this.name;
+	}
 
 	public boolean increasePay(int percent) {
 		System.out.println("Increasing salary by " + percent + "%: " + name);

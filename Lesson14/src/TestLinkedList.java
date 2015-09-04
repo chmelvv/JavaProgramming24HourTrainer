@@ -4,6 +4,7 @@ import java.util.ListIterator;
 public class TestLinkedList {
 
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 		
 		LinkedList passengerList = new LinkedList();
@@ -15,7 +16,7 @@ public class TestLinkedList {
 		ListIterator iterator = passengerList.listIterator();
 		
         System.out.println(iterator.next());
-        iterator.add("VIP Customer");
+        passengerList.add("VIP Customer");
         iterator.previous();
         System.out.println(iterator.next());
         System.out.println(iterator.next());

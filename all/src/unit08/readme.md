@@ -59,7 +59,7 @@ at	TestGenericCollec5on.main(TestGenericCollec5on.java:23)
 # Homework	
 * Do	the	assignments	from	the	Try	It	sec5ons	of	Lesson	14 and 15
 	
-- [ ] Modify the LinkedList example from Listing 11-5 to add an arbitrary object, say, the VIP
+- [x] Modify the LinkedList example from Listing 11-5 to add an arbitrary object, say, the VIP
 customer after the very first element of the list. You must do this while iterating through
 the list. When the program is ready it should print the following:
 	Alex Smith
@@ -67,16 +67,14 @@ the list. When the program is ready it should print the following:
 	Mary Lou
 	Sim Monk
 
-- [ ] Create a simple program that uses generics with the class RetiredEmployee (which
+- [x] Create a simple program that uses generics with the class RetiredEmployee (which
 extends the class Employee) from Listing 7-2. Write a generic method that accepts a
 collection of RetiredEmployee objects and copies it into a collection of Employee objects.
 Use the method unloadToDock() from class Ferry as an example.
 
 # Addi5onal	Read	
-Linked	lists:	hIp://bit.ly/1gxCz5I		
-		
-Study	the	Oracle’s	Java	Generics	Tutorial	at	hIp://bit.ly/1if4njs		
-Watch	this	preso	from	the	JavaOne	conference	on	generics:	
-hIp://bit.ly/14k7ORf
-A	simple	example	of	using	parameterized	type	<T>	
-hIp://bit.ly/1mfsQsS	
+- [ ] Java	8,	use		the	method	forEach()	to	iterate	collec5ons
+- [ ] Study	the	Oracle’s	Java	Generics	Tutorial	at	https://docs.oracle.com/javase/tutorial/java/generics/	
+- [ ] Watch	this	preso	from	the	JavaOne	conference	on	generics:	
+https://www.youtube.com/watch?v=34oiEq9nD0M&index=36&list=PLKCk3OyNwIztOH7f5C72NahQrsxzPb3P_
+	
