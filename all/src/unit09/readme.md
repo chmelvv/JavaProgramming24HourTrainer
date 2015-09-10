@@ -1,17 +1,17 @@
 #Walkthrough	1	
-- [ ] 1. Download	and	import	into	Eclipse	the	source	code	of 	 Lesson	16	from	the	textbook.	
+- [x] 1. Download	and	import	into	Eclipse	the	source	code	of 	 Lesson	16	from	the	textbook.	
 Open	the	project	properties and	change	the	Compiler	to	use	JDK	1.7	and	replace	the	
 library	in	Java	Build	Path	to	be	JRE	1.7.			
-- [ ]  2. Review	the	code	and	run	the	TestFileInputStream	program. 
+- [x]  2. Review	the	code	and	run	the	TestFileInputStream	program. 
 Modify	the	code	to	use	try-with-resources. 
 Review	the	code	and	run	TestBufferedInputStream	program. 
 Modify	the	code	to	use	try-with-resources: 
 try ( FileInputStream myFile = new FileInputStream("abc.dat");
  BufferedInputStream buff = new BufferedInputStream(myFile);)
-- [ ]  3.	Review	the	code	and	run	TaxGUIFile	program.	
+- [x]  3.	Review	the	code	and	run	TaxGUIFile	program.	
 
 #Walkthrough	2	
-- [ ] 1	Download	and	import	into	Eclipse	the	code	of	the	Lesson	17	from	the	
+- [x] 1	Download	and	import	into	Eclipse	the	code	of	the	Lesson	17	from	the	
 textbook	Web	site.	
 - [ ] 2	Review	the	code	of	the	classes	and	run	the	ClassA	program	to	serialize	the	
 object	Employee	into	a	file.	

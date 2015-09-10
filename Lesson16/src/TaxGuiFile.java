@@ -8,7 +8,11 @@ import java.io.InputStreamReader;
 import java.util.Vector;
 
 public class TaxGuiFile extends JFrame implements ActionListener {
-    JLabel lblGrIncome;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	JLabel lblGrIncome;
     JTextField txtGrossIncome = new JTextField(15);
     JLabel lblDependents=new JLabel("Number of Dependents:");
     JTextField txtDependents = new JTextField(2);
