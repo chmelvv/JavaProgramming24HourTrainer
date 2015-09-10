@@ -13,10 +13,10 @@ try ( FileInputStream myFile = new FileInputStream("abc.dat");
 #Walkthrough	2	
 - [x] 1	Download	and	import	into	Eclipse	the	code	of	the	Lesson	17	from	the	
 textbook	Web	site.	
-- [ ] 2	Review	the	code	of	the	classes	and	run	the	ClassA	program	to	serialize	the	
+- [x] 2	Review	the	code	of	the	classes	and	run	the	ClassA	program	to	serialize	the	
 object	Employee	into	a	file.	
-- [ ] 3	Open	the	file	Employee.ser	in	any	text	editor	and	review	its	content.	
-- [ ] 4	Add	the	statement	to	ClassB	to	print	the	name	and	the	salary	of	the	
+- [x] 3	Open	the	file	Employee.ser	in	any	text	editor	and	review	its	content.	
+- [x] 4	Add	the	statement	to	ClassB	to	print	the	name	and	the	salary	of	the	
 deserialized	Employee	object.	Run	the	program	ClassB	to	deserialize
 Employee	from	the	file	Employee.ser.	
 - [ ] 5	Change	the	declara<on	of	the	class	Employee	to	make	salary	transient:	

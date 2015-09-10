@@ -12,6 +12,9 @@ class ClassB {
      oIn = new ObjectInputStream(fIn);
 
      bestEmp=(Employee)oIn.readObject();
+     System.out.println(bestEmp.fName);
+     System.out.println(bestEmp.lName);
+     System.out.println(bestEmp.salary);
      
    }catch (ClassNotFoundException cnf){
 	   cnf.printStackTrace();
