@@ -13,7 +13,7 @@ My class and home tasks for Java course by Yakov Fain
 - [x] unit 06 Inner Classes. Intro to Applets. Installing Tomcat.
 - [x] unit 07 Error Handling
 - [x] unit 08 Selected Collections. Generics.
-- [ ] unit 09 I.O Streams. Serialization. Basic Networking.
+- [x] unit 09 I.O Streams. Serialization. Basic Networking.
 - [ ] unit 10 Stock Quotes with URL, Sockets, and RMI.
 - [ ] unit 11 Intro to Multithreading
 - [ ] unit 12 Working with RDBMS using JDBC.
