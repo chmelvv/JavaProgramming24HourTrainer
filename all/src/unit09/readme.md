@@ -19,26 +19,26 @@ object	Employee	into	a	file.
 - [x] 4	Add	the	statement	to	ClassB	to	print	the	name	and	the	salary	of	the	
 deserialized	Employee	object.	Run	the	program	ClassB	to	deserialize
 Employee	from	the	file	Employee.ser.	
-- [ ] 5	Change	the	declara<on	of	the	class	Employee	to	make	salary	transient:	
+- [x] 5	Change	the	declaration	of	the	class	Employee	to	make	salary	transient:
 transient	double	salary;	
-- [ ] 6	Run	the	program	ClassA again	and	review	the	code	of		
+- [x] 6	Run	the	program	ClassA again	and	review	the	code	of
 the	Employee.ser.	See	the	difference?	
 
 #Walkthrough	3	
-- [ ] Download	and	import	the	source	code	from	
+- [x] Download	and	import	the	source	code	from
 Lesson	18		
-- [ ] Review	the	code	of	the	WebSiteReader	and	
+- [x] Review	the	code	of	the	WebSiteReader	and
 run	the	program	
-- [ ] Review	the	output	on	the	system	console	
+- [x] Review	the	output	on	the	system	console
 
 #Homework	
-1. Modify	the	code	from	Lesson16	project	to	use	try-withresources
+- [x] Modify	the	code	from	Lesson16	project	to	use	try-withresources
 syntax	as	shown	in	the	video	about	Error	Handling	
-(Lesson	7).	You’ll	need	to	replace	JRE	1.6	with	JRE	1.7	or	later	in	
+(Lesson	7).	Youï¿½ll	need	to	replace	JRE	1.6	with	JRE	1.7	or	later	in	
 Eclipse	project	Lesson16.	
-2. Do	the	assignments	from	the	Try	It	sec<ons	of	17	(serializa<on)	
-3. Read	the	Networking	Basics	tutorial	at	hfp://bit.ly/1lh3aMk				
-4. For	extra	credit	modify	the	FileDownload	program	so	it	can	
+- [x] Do	the	assignments	from	the	Try	It	sec<ons	of	17	(serializa<on)
+- [x] Read	the	Networking	Basics	tutorial	at	hfp://bit.ly/1lh3aMk
+- [x] For	extra	credit	modify	the	FileDownload	program	so	it	can
 download	several	podcasts	from	americhka.us.	ARer	
 downloading	as	separate	files	works,	see	if	you	can	get	them	as	
 one	zip	file.
