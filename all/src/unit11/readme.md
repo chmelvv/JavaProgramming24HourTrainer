@@ -1,8 +1,8 @@
 # Walkthrough	1
-- [ ] Download	and	import	the	project	for	the	lesson	20	of	the	textbook
-- [ ] Review		the	code	of	the	threads	created	by	subclassing Thread
+- [x] Download	and	import	the	project	for	the	lesson	20	of	the	textbook
+- [x] Review		the	code	of	the	threads	created	by	subclassing Thread
   and	implemen8ng	Runnable.
-- [ ] Run	the	programs	TestThreads and	TestThreads2.	Observe
+- [x] Run	the	programs	TestThreads and	TestThreads2.	Observe
   the	output.
 - [ ] Review	the	code	that	uses	sleeping	threads.
 - [ ] Run	the	program	TestThereads3	several	8mes.	Observe	the	output
