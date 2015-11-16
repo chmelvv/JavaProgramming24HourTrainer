@@ -1,13 +1,13 @@
 public class ClassB extends Thread {
-    ClassA parent = null;
+    Updatable parent;
 
-    ClassB(ClassA caller){
-        parent = caller;
+    ClassB(Updatable caller){
+        this.parent = caller;
     }
 
     @Override
     public void run() {
-        parent.setData("Economy is recovering ...");
+        this.parent.setData("Economy is recovering ...");
 
         synchronized(parent) {
             System.out.println("Begin notify");

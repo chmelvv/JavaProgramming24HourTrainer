@@ -1,4 +1,4 @@
-public class ClassA {
+public class ClassA implements Updatable{
     String marketNews = null;
 
     void someMethod() {
@@ -20,10 +20,10 @@ public class ClassA {
         System.out.println("Out some method");
     }
 
-    public void setData(String news){
-        marketNews = news;
+    @Override
+    public void setData(String news) {
+        this.marketNews = news;
     }
-
 }
 
 
