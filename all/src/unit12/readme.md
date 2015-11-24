@@ -47,3 +47,16 @@ You	can	read	more	about	specifics	of	running	embedded	Derby	DB	instance	at	     
 - [ ] Do the	assignment	from	the	Try	It	sec7on	of	Lesson	22.
 - [ ] Study	SQL:	hZp://www.sqlcourse.com/
 - [ ] Get	familiar	with	working	with	DerbyDB	from	Eclipse: hZp://www.vogella.de/ar7cles/EclipseDataToolsPlazorm/
+
+# Challenge	Yourself
+- [ ] Download	and	install	DBMS	Oracle	11g	Express	edi7on		from
+  hZp://bit.ly/Qmkzpt	.	During	the	installa7on	enter	(and	memorize)	the
+  passwords	for	SYS	and	SYSTEM	accounts.
+- [ ] Download	Oracle	SQL	Developer	from	hZp://bit.ly/1bAq4Y7.	Unzip	it	into	any
+  folder.	SQL	Developer	doesn’t	support	Java	8	yet,	so	you’ll	need	to	install	Java	7.
+- [ ] Run	the	sqldeveloper.exe	located	in	sqldeveloper	subfolder.	Specify	where	your
+  JDK	is	installed,	e.g	C:\Program	Files\Java\jdk1.7.0_55.
+- [ ] For	instruc7ons	on	using	SQL	Developer	follow	this	video:
+  hZps://www.youtube.com/watch?v=ZINT9tCl20g.
+- [ ] Use	Eclipse	plugin	for	Oracle:	hZp://bit.ly/rYIDid
+- [ ] You	can	get	ojdbc7.jar,	the	thin	Oracle	JDBC	driver	at	hZp://bit.ly/1d4rn1Z
