@@ -17,7 +17,7 @@ My class and home tasks for Java course by Yakov Fain
 - [x] unit 08 Selected Collections. Generics.
 - [x] unit 09 I.O Streams. Serialization. Basic Networking.
 - [x] unit 10 Stock Quotes with URL, Sockets, and RMI.
-- [ ] unit 11 Intro to Multithreading
+- [x] unit 11 Intro to Multithreading
 - [ ] unit 12 Working with RDBMS using JDBC.
 - [ ] unit 13 Swing JTable. Annotations. Reflection.
 - [ ] unit 14 Intro to Java EE. Intro to Servlets.

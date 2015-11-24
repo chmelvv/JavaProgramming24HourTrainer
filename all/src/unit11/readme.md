@@ -4,10 +4,10 @@
   and	implemen8ng	Runnable.
 - [x] Run	the	programs	TestThreads and	TestThreads2.	Observe
   the	output.
-- [ ] Review	the	code	that	uses	sleeping	threads.
-- [ ] Run	the	program	TestThereads3	several	8mes.	Observe	the	output
+- [x] Review	the	code	that	uses	sleeping	threads.
+- [x] Run	the	program	TestThereads3	several	8mes.	Observe	the	output
   –	is	it	always	the	same?
-- [ ] Change	the	sleeping	8me	in	Portfolio3	and	MarketNews3.
+- [x] Change	the	sleeping	8me	in	Portfolio3	and	MarketNews3.
   Re-run	TestThreads3	–	the	output	should	be	different	now.
 
 # Walkthrough	2
@@ -28,11 +28,11 @@
  }
  }
   ```
-- [ ] Run	the	program.		It	won’t	print	the	“finished	”	message	sooner	than	15	sec.
+- [x] Run	the	program.		It	won’t	print	the	“finished	”	message	sooner	than	15	sec.
   What	has	to	be	done	to	make	this	program	to	stop	wai8ng	earlier?
 
-- [ ] Let’s	replace	synchronized/wait() with	Condition/await().
-- [ ] Comment	out	the	synchronized	block	and	theLockKeeper	line.	Add	the
+- [x] Let’s	replace	synchronized/wait() with	Condition/await().
+- [x] Comment	out	the	synchronized	block	and	theLockKeeper	line.	Add	the
 following	code	above	the	println() line:
 ```
 ReentrantLock theLock = new ReentrantLock();
@@ -48,29 +48,26 @@ ReentrantLock theLock = new ReentrantLock();
 
  theLock.unlock();
  ```
-- [ ] Run	the	program.		It’ll	wait	for	15	seconds	before	prin8ng
+- [x] Run	the	program.		It’ll	wait	for	15	seconds	before	prin8ng
 	the	“finished	”	message.
 
 # Walkthrough	3
-- [ ] Import	the	code	samples	from	Lesson	21	of	the	textbook.
-- [ ] Review	the	code	of	the	program	TestThreadsJoin and	run	it.
-- [ ] Observe	the	output	–	the	main	thread	waits	for	the	comple8on	of
+- [x] Import	the	code	samples	from	Lesson	21	of	the	textbook.
+- [x] Review	the	code	of	the	program	TestThreadsJoin and	run	it.
+- [x] Observe	the	output	–	the	main	thread	waits	for	the	comple8on	of
   the	threads	MarketNews3	and	Portfolio3.
 
 # Walkthrough	4
-- [ ] Review	the	code	of	the	TestCallableThreads form	the
+- [x] Review	the	code	of	the	TestCallableThreads form	the
   Lesson21	project.	Run	the	examples	and	observe	the	results.
-- [ ] Change	the	code	of	the	thread	PortfolioCallable as	follows:
-- Its	constructor	should	have	an	argument	to	receive	the	price	of
-  the	IBM	stock:	double	price
-- The	thread	should	return	the	total	amount	based	on	the
-  									price	mul8plied	by	504.
-- Change	the	code	of	the	TestCallableThreads to	pass
-  									164.22		as	the	price	of	IBM
+- [x] Change	the	code	of	the	thread	PortfolioCallable as	follows:
+- Its	constructor	should	have	an	argument	to	receive	the	price	of   the	IBM	stock:	double	price
+- The	thread	should	return	the	total	amount	based	on	the price	mul8plied	by	504.
+- Change	the	code	of	the	TestCallableThreads to	pass 164.22		as	the	price	of	IBM
 - Run	and	the	TestCallableThreads and	observe	the	results.
 
 # Homework
-- [ ] Study	the	materials	from	the	lessons	20	and	21	from	the
+- [x] Study	the	materials	from	the	lessons	20	and	21	from	the
   textbook	and	do	the	assignments	from	theirs	Try	It	sec8ons.
-- [ ] Study	the	tutorial	by	Lars	Vogel	on	Java	Concurrency	and
-Mul8threading: hlp://www.vogella.de/ar8cles/JavaConcurrency/ar8cle.html
+- [x] Study	the	tutorial	by	Lars	Vogel	on	Java	Concurrency	and
+Mul8threading: http://www.vogella.de/articles/JavaConcurrency/article.html
