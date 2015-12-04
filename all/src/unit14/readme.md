@@ -1,14 +1,14 @@
 # Walkthrough	1	(Installing	GlassFish	4)
-- [ ] Download	and	unzip	GlassFish-4.0.zip	(quick	start)	from
+- [x] Download	and	unzip	GlassFish-4.0.zip	(quick	start)	from
       https://glassfish.java.net/download.html
-- [ ] In	the	Command	(or	Terminal)	Window	switch	to	the	directory
+- [x] In	the	Command	(or	Terminal)	Window	switch	to	the	directory
       glassfish4/bin	and	run		./asadmin	start-domain	domain1.
       Windows	users	should	run	asadmin.bat	start-domain	domain1.
-- [ ] Test	your	install	by	entering		http://localhost:8080	-	you’ll	see	a
+- [x] Test	your	install	by	entering		http://localhost:8080	-	you’ll	see	a
 Web	page	staPng	that	GlassFish	server	is	running.
-- [ ] Open	the	admin	console	by	visiPng
+- [x] Open	the	admin	console	by	visiPng
 http://localhost:4848
-- [ ]  For	start/stop	instrucPons	refer	to		Quick	Start	Guide,	secPon
+- [x]  For	start/stop	instrucPons	refer	to		Quick	Start	Guide,	secPon
 StarPng	and	Stopping	the	Default	Domain:
 https://glassfish.java.net/docs/4.0/quick-start-guide.pdf
 
