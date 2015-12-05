@@ -8,61 +8,61 @@
 Web	page	staPng	that	GlassFish	server	is	running.
 - [x] Open	the	admin	console	by	visiPng
 http://localhost:4848
-- [x]  For	start/stop	instrucPons	refer	to		Quick	Start	Guide,	secPon
+- [x] For	start/stop	instrucPons	refer	to		Quick	Start	Guide,	secPon
 StarPng	and	Stopping	the	Default	Domain:
 https://glassfish.java.net/docs/4.0/quick-start-guide.pdf
 
 # Walkthrough	2
-- [ ]  Create	a	plain	text	file	BookSearch.html	with	the	content	from	the
+- [x] Create	a	plain	text	file	BookSearch.html	with	the	content	from	the
 previous	slide.
-- [ ]  Open	this	file	in	a	web	browser	using	the	menu	File	|	Open,	and
+- [x] Open	this	file	in	a	web	browser	using	the	menu	File	|	Open,	and
 enter	any	text	in	the	input	field	and	press	the	buJon	Search.
-- [ ]  You’ll	get	the	error	message	because	there	is	neither	server,	nor
+- [x] You’ll	get	the	error	message	because	there	is	neither	server,	nor
 servlet	FindBooks at	this	address.
 
-# Walkthrough	3:	Eclipse	+	Glassfish
-- [ ] Shut	down	the	GlassFish	server	if	it’s	running	()	-	run
+# Walkthrough	3:	IDEA	+	Glassfish
+- [x] Shut	down	the	GlassFish	server	if	it’s	running	()	-	run
 ./asadmin	stop-domain	located	in		bin	folder.
-- [ ] In	Eclipse	switch	to	Java	EE	perspecPve.
-- [ ] Right-click	inside	the	Servers	view.	Select	New	|	Server.	You	should	see
+- [x] In	Eclipse	switch	to	Java	EE	perspecPve.
+- [x] Right-click	inside	the	Servers	view.	Select	New	|	Server.	You	should	see
 GlassFish	4.0	in	the	list.		If	not	–	click	on	Download	AddiPonal	Server
 adapters	and	install	GlassFish	Tools
-- [ ] Select	GlassFish	4.0	and	press	Next.
-- [ ] One	the	next	Window,	Select	JDK	7.	Press	Browse	and	select	the	folder
+- [x] Select	GlassFish	4.0	and	press	Next.
+- [x] One	the	next	Window,	Select	JDK	7.	Press	Browse	and	select	the	folder
 glassfish	located	inside	glassfish4.	Press	Next.
-- [ ] Press	Finish	on	the	next	window	–	no	password	required.
-- [ ] You’ll	see	GlassFish	in	Eclispe	Servers	View.	Right-click	and	start	it.
-- [ ] In	Eclipse	for	Java	EE	Developers	switch	to
+- [x] Press	Finish	on	the	next	window	–	no	password	required.
+- [x] You’ll	see	GlassFish	in	Eclispe	Servers	View.	Right-click	and	start	it.
+- [x] In	Eclipse	for	Java	EE	Developers	switch	to
 Java	EE	perspecPve	and	create	Dynamic	Web
 Project	using	the	File	|	New	menu.
-- [ ] You	can	also	find	see	this	menu	under	File	|
+- [x] You	can	also	find	see	this	menu	under	File	|
 New	|	Other	|	Web
 
-# Walkthrough	4
-- [ ] Create	a	dynamic	Web	project	by	selecPng	Eclipse	menu		File	|	New	|	Other	|
+# Walkthrough	4 (with IDEA)
+- [x] Create	a	dynamic	Web	project	by	selecPng	Eclipse	menu		File	|	New	|	Other	|
 Web	|	Dynamic	Web	Project.	Name	it	lesson27.
-- [ ] In	the	dropdown	Target	runPme	is	GlassFish	4.0.	Press	Next,	Next,	and	Finish.
+- [x] In	the	dropdown	Target	runPme	is	GlassFish	4.0.	Press	Next,	Next,	and	Finish.
 - [ ]Observe	the	folder	WebContent in	your	project.	This	is	your	server-side
 deployment	part.
-- [ ] Create	new	servlet:	right-click	on	the	project	name	and	select	New	|	Servlet.
+- [x] Create	new	servlet:	right-click	on	the	project	name	and	select	New	|	Servlet.
 Specify	com.pracPcaljava.lesson27	as	the	name	of	the	Java	package	and
 FindBooks	as	the	class	name.	Press	Next.
-- [ ] In	the		URL	Mappings	box	select	FindBooks,	press	Edit,		and	enter	/book	in	the
+- [x] In	the		URL	Mappings	box	select	FindBooks,	press	Edit,		and	enter	/book	in	the
 PaJerns	field.	Press	OK	and	Finish.
-- [ ] In	the	next	window	press	Finish.
-- [ ] In	the	generated	code	note	the	annotated	class	declaraPon	and	methods
+- [x] In	the	next	window	press	Finish.
+- [x] In	the	generated	code	note	the	annotated	class	declaraPon	and	methods
 doGet() and	doPost().
-- [ ] Add	the	following	two	lines	inside	the	method	doGet():
+- [x] Add	the	following	two	lines	inside	the	method	doGet():
 PrintWriter out = response.getWriter();
 out.println("Hello from FindBooks");
-- [ ] Correct	the	errors	by	imporPng	the	PrintWriter class.
-- [ ] Deploy	the	servlet	in	GlassFish:	open	the	Servers	view,	right-click	on	the	server	and
+- [x] Correct	the	errors	by	imporPng	the	PrintWriter class.
+- [x] Deploy	the	servlet	in	GlassFish:	open	the	Servers	view,	right-click	on	the	server	and
 select	Add	and	Remove	from	the	menu.	Select	lesson27	in	the	lei	panel	and	add	it	to	the
 right	one.	Check	the	content	of	the	directory,	where	this	app	is	deployed:
 glassfish4/glassfish/domains/domain1/eclipseApps
-- [ ] Run	the	servlet:	right-click	on	FindBooks	and	select	Run	on	Server.	Confirm	deployment
+- [x] Run	the	servlet:	right-click	on	FindBooks	and	select	Run	on	Server.	Confirm	deployment
 under	GlassFish.	Eclipse	will	start	its	internal	browser	and	display	the	following:
-- [ ] Copy	the	servlet’s	URL	http://localhost:8080/lesson27/book	from	Eclipse	to	your	Web
+- [x] Copy	the	servlet’s	URL	http://localhost:8080/lesson27/book	from	Eclipse	to	your	Web
 Browser	-	you’ll	see	the	same	output.
 
 # Homework
