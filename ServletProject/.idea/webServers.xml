@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5d15e43a-d4d0-4ed6-9513-4022d27e663e" name="BookShop" url="http://localhost:8080">
+        <fileTransfer mountedRoot="D:\Programs\glassfish4\glassfish\domains\domain1\docroot" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
