@@ -20,7 +20,7 @@ My class and home tasks for Java course by Yakov Fain
 - [x] unit 11 Intro to Multithreading
 - [x] unit 12 Working with RDBMS using JDBC.
 - [x] unit 13 Annotations. Reflection.
-- [ ] unit 14 Intro to Java EE. Intro to Servlets.
+- [x] unit 14 Intro to Java EE. Intro to Servlets.
 - [ ] unit 15 Sessions. Cookies. JSP.
 - [ ] unit 16 JNDI. JMS.
 - [ ] unit 17 EJB. JPA
