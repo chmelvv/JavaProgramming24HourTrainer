@@ -66,14 +66,14 @@ under	GlassFish.	Eclipse	will	start	its	internal	browser	and	display	the	followi
 Browser	-	you’ll	see	the	same	output.
 
 # Homework
-- [ ] Study	all	the	materials	from	Lessons	25-27	from	the	textbook.
-- [ ] Study		the	following	HTTP	Protocol	tutorial	from	tutsplus.com:
+- [x] Study	all	the	materials	from	Lessons	25-27	from	the	textbook.
+- [x] Study		the	following	HTTP	Protocol	tutorial	from	tutsplus.com:
     a)	Part	1:	http://bit.ly/17mLK87
     b)	Part	2:	http://bit.ly/11S639i
 - [ ] Do	the	assignment	from	the	Try	It	secPon	of	the	lesson	27.
-- [ ] After	step	1	is	complete,	stop	GlassFish	and	start	it	in	the	Debug
+- [x] After	step	1	is	complete,	stop	GlassFish	and	start	it	in	the	Debug
 mode.	Set	a	breakpoint	in	the	servlet’s	doGet() method.
-- [ ] Submit	the	stock	price	request	from	your	HTML	file and	observe
+- [x] Submit	the	stock	price	request	from	your	HTML	file and	observe
 the	values	of	the	local	variables	in	doGet()while	stepping
 through		the	Java	code	in	the	Eclipse	debugger.
 
