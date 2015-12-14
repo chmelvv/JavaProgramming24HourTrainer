@@ -1,6 +1,6 @@
 # Walkthrough   1
 
-- [ ]   Start
+- [x]   Start
   the
   Open
   MQ
@@ -34,7 +34,7 @@
   -­‐port
   7677
 
-- [ ]   Start
+- [x]   Start
   Open
   MQ
   Admin
@@ -64,7 +64,7 @@
   messaging
   desTnaTons.
 
-- [ ] Create   new
+- [x] Create   new
   message
   broker:
   Right-­‐click
@@ -91,7 +91,7 @@
   press
   OK.
 
-- [ ]   Connect
+- [x]   Connect
   to
   the
   StockBroker
@@ -142,7 +142,7 @@
   -­‐javahome
   $JAVA_HOME
 
-- [ ] Download
+- [x] Download
   the
   code
   for
@@ -154,7 +154,7 @@
   into
   Eclipse
 
-- [ ]   Go
+- [x]   Go
   to
   the
   project
@@ -179,7 +179,7 @@
   the
   glassfish4/mq/lib.
 
-- [ ]   Review
+- [x]   Review
   the
   code
   of
@@ -197,7 +197,7 @@
   port
   7677.
 
-- [ ]    Start
+- [x]    Start
   MesageReceiver
   and
   it’ll
@@ -207,7 +207,7 @@
   the
   TestQueue...
 
-- [ ]   Run
+- [x]   Run
   MessageSender.
   It’ll
   place
@@ -229,7 +229,7 @@
   of
   IBM.
 
-- [ ]   Check
+- [x]   Check
   the
   console
   of
@@ -249,7 +249,7 @@
   200
   Mkt
 
-- [ ]    Go
+- [x]    Go
   back
   to
   Slide
@@ -264,3 +264,29 @@
   more
   sense
   now.
+
+# Homework
+- [x]    Study
+  the
+  materials
+  from
+  the
+  lessons
+  30
+  and
+  31
+  from
+  the
+  textbook.
+
+- [x]     Do
+  the
+  assignments
+  from
+  the
+  Try
+  It
+  secTons
+  of
+  the
+  lesson   31.
