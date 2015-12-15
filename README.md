@@ -23,5 +23,5 @@ My class and home tasks for Java course by Yakov Fain
 - [x] unit 14 Intro to Java EE. Intro to Servlets.
 - [x] unit 15 Sessions. Cookies. JSP.
 - [x] unit 16 JNDI. JMS.
-- [ ] unit 17 EJB. JPA
+- [x] unit 17 EJB. JPA
 - [ ] unit 18 Intro to RESTFull Web Services
